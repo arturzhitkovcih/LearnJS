@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.zombies {
+    display: flex;
+}
+
+.zombie {
+    width: 100px;
+    height: 222px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.zombie-small {
+    background-image: url("./../icons/zombie-small.gif");
+}
+
+.zombie-middle {
+    background-image: url("./../icons/zombie-mad.gif");
+}
+
+.zombie-strong {
+    background-image: url("./../icons/zombie-strong.gif");
+}
+
+.zombie-dead {
+    background-image: url("./../icons/zombie-dead.gif");
+}
